@@ -24180,20 +24180,6 @@ Ym:function Ym(a){this.a=a},
 i7:function i7(){},
 GH:function GH(){},
 oo:function oo(){},
-Hk(){var s=0,r=A.V(t.z),q,p,o,n
-var $async$Hk=A.W(function(a,b){if(a===1)return A.S(b,r)
-while(true)switch(s){case 0:p=new A.Z3()
-o=$
-n=A
-s=2
-return A.X(p.gwE(),$async$Hk)
-case 2:o.aqo=n.h(b.x.e)
-s=3
-return A.X(p.gxx(),$async$Hk)
-case 3:q=b
-$.avC=A.h(q.gagV(q))
-return A.T(null,r)}})
-return A.U($async$Hk,r)},
 xJ:function xJ(a){this.a=a},
 a2j:function a2j(){},
 a2k:function a2k(){},
@@ -24236,6 +24222,20 @@ JB:function JB(a){this.a=a},
 a4Q:function a4Q(){},
 B4:function B4(a){this.a=a},
 a4P:function a4P(){},
+Hk(){var s=0,r=A.V(t.z),q,p,o,n
+var $async$Hk=A.W(function(a,b){if(a===1)return A.S(b,r)
+while(true)switch(s){case 0:p=new A.Z3()
+o=$
+n=A
+s=2
+return A.X(p.gwE(),$async$Hk)
+case 2:o.aqo=n.h(b.x.e)
+s=3
+return A.X(p.gxx(),$async$Hk)
+case 3:q=b
+$.avC=A.h(q.gagV(q))
+return A.T(null,r)}})
+return A.U($async$Hk,r)},
 W4(){var s=0,r=A.V(t.H),q
 var $async$W4=A.W(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:if($.G==null)A.asQ()
@@ -24244,6 +24244,7 @@ $.avQ()
 s=2
 return A.X(A.Xk(),$async$W4)
 case 2:$.ayx=new A.a4P()
+A.Hk()
 if($.G==null)A.asQ()
 q=$.G
 q.S_(B.Hy)
@@ -80168,69 +80169,63 @@ s.wV(r)
 return r},
 $S:427}
 A.a2l.prototype={
-$2(a3,a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b="Averta",a="#656565",a0="Cairo",a1="AvertaCut",a2="Platform"
-A.Hk()
-s=A.bA("Hi! I Am",c,c,c,c,A.aT(c,c,new A.hp(A.e6(a)>>>0),c,c,c,c,c,b,c,c,70,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-r=A.db(c,c,7)
-q=A.ff(12)
-p=A.e6("#00C1BA")
-o=t.D
-q=A.e9(A.a([s,r,A.b5(c,new A.bJ(new A.aw(10,8,10,8),A.bA("Flutter Developer",c,c,c,c,A.aT(c,c,B.i,c,c,c,c,c,b,c,c,25,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),c),c,c,new A.cN(new A.hp(p>>>0),c,c,q,c,c,B.aa),c,c,c,c)],o),B.T,B.U,B.G)
-p=A.bA("Nour Adawy",c,c,c,c,A.aT(c,c,new A.hp(A.e6(a)>>>0),c,c,c,c,c,b,c,c,70,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-r=A.bA(A.h($.aqo)+" "+A.h($.avC),c,c,c,c,c,c,c)
-s=A.db(c,200,c)
-n=A.bA("- Convert live website to mobile application.",c,c,c,c,A.aT(c,c,new A.hp(A.e6(a)>>>0),c,c,c,c,c,a0,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-m=A.bA("- Build new mobile application or website.",c,c,c,c,A.aT(c,c,new A.hp(A.e6(a)>>>0),c,c,c,c,c,a0,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-l=A.bA("- Convert your Figma designs into real live apps without hassle.",c,c,c,c,A.aT(c,c,new A.hp(A.e6(a)>>>0),c,c,c,c,c,a0,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-k=A.db(c,100,c)
-j=A.ff(12)
-i=t.t_
-h=A.a([new A.hp(A.e6("#CE5E5E")>>>0),new A.hp(A.e6("#F5C471")>>>0)],i)
-h=A.e9(A.a([new A.bJ(B.BW,A.k8(A.a([q,p,r,s,n,m,l,k,A.xX(!1,c,!0,A.b5(c,new A.bJ(new A.aw(10,8,10,8),A.e9(A.a([A.IB(B.CM,A.O(B.d.aU(76.5),0,0,0),c),A.db(c,c,10),A.bA("Schedule appointment",c,c,c,c,A.aT(c,c,B.i,c,c,c,c,c,"Chromoxome",c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)],o),B.T,B.U,B.G),c),c,c,new A.cN(c,c,c,j,c,new A.kz(B.cl,B.x1,B.b6,h,c,c),B.aa),c,c,c,c),c,!0,c,c,c,c,c,c,c,c,c,new A.a2e(a3),c,c,c,c)],o),B.bu,B.U,B.G),c),A.ID("assets/Images/Group 7.png",c)],o),B.bu,B.i3,B.G)
-j=A.bA("Latest Projects",c,c,c,c,A.aT(c,c,new A.hp(A.e6(a)>>>0),c,c,c,c,c,a0,c,c,40,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-k=A.db(c,45,c)
-l=A.e6("#8A038A")>>>0
-m=B.d.aU(178.5)
-l=A.bA("Phone Dailer",c,c,c,c,A.aT(c,c,A.O(m,l>>>16&255,l>>>8&255,l&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-n=A.e6("#004682")>>>0
-n=A.bA("It was challenging to build a phone dialer application in Flutter since\nyou have to communicate between flutter and native android (Kotlin) in\norder to detect and answer or make a phone call  not only that but also\nthe more challenging part is to keep the application alive in the background\ndue to third party application limitation that has been made by google (android)",c,c,c,c,A.aT(c,c,A.O(133,n>>>16&255,n>>>8&255,n&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-s=A.e6("#B1DDFF")>>>0
-s=A.O(54,s>>>16&255,s>>>8&255,s&255)
-r=A.e6("#010F14")>>>0
-r=A.bA(a2,c,c,c,c,A.aT(c,c,A.O(m,r>>>16&255,r>>>8&255,r&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-p=A.db(c,c,10)
-q=A.e6("#9B9B9B")>>>0
-s=A.k8(A.a([new A.bJ(B.n0,l,c),new A.bJ(B.n1,n,c),new A.bJ(B.n_,A.b5(c,new A.bJ(B.mZ,A.e9(A.a([r,p,A.bA("Mobile App",c,c,c,c,A.aT(c,c,A.O(m,q>>>16&255,q>>>8&255,q&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)],o),B.T,B.U,B.G),c),c,c,new A.cN(s,c,c,c,c,c,B.aa),c,c,c,c),c)],o),B.bu,B.U,B.G)
-q=A.db(c,c,30)
-p=t.H9
-r=A.dN(a3,p).y
-n=A.ag(r).i("ax<1,kt>")
-n=A.b5(c,A.e9(A.a([s,q,A.b5(c,A.aq4(A.ar(new A.ax(r,new A.a2f(),n),!0,n.i("bo.E")),A.aq3(!1,0.2)),c,c,c,317,c,c,800)],o),B.T,B.U,B.G),B.i,c,c,317,c,c,1614)
-r=A.db(c,45,c)
+$2(a3,a4){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="Averta",f="#656565",e="Cairo",d="AvertaCut",c="Platform",b=A.bA("Hi! I Am",h,h,h,h,A.aT(h,h,new A.hp(A.e6(f)>>>0),h,h,h,h,h,g,h,h,70,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),a=A.db(h,h,7),a0=A.ff(12),a1=A.e6("#00C1BA"),a2=t.D
+a0=A.e9(A.a([b,a,A.b5(h,new A.bJ(new A.aw(10,8,10,8),A.bA("Flutter Developer",h,h,h,h,A.aT(h,h,B.i,h,h,h,h,h,g,h,h,25,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),h),h,h,new A.cN(new A.hp(a1>>>0),h,h,a0,h,h,B.aa),h,h,h,h)],a2),B.T,B.U,B.G)
+a1=A.bA("Nour Adawy",h,h,h,h,A.aT(h,h,new A.hp(A.e6(f)>>>0),h,h,h,h,h,g,h,h,70,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+a=A.bA(A.h($.aqo)+" "+A.h($.avC),h,h,h,h,h,h,h)
+b=A.db(h,200,h)
+s=A.bA("- Convert live website to mobile application.",h,h,h,h,A.aT(h,h,new A.hp(A.e6(f)>>>0),h,h,h,h,h,e,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+r=A.bA("- Build new mobile application or website.",h,h,h,h,A.aT(h,h,new A.hp(A.e6(f)>>>0),h,h,h,h,h,e,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+q=A.bA("- Convert your Figma designs into real live apps without hassle.",h,h,h,h,A.aT(h,h,new A.hp(A.e6(f)>>>0),h,h,h,h,h,e,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+p=A.db(h,100,h)
+o=A.ff(12)
+n=t.t_
+m=A.a([new A.hp(A.e6("#CE5E5E")>>>0),new A.hp(A.e6("#F5C471")>>>0)],n)
+m=A.e9(A.a([new A.bJ(B.BW,A.k8(A.a([a0,a1,a,b,s,r,q,p,A.xX(!1,h,!0,A.b5(h,new A.bJ(new A.aw(10,8,10,8),A.e9(A.a([A.IB(B.CM,A.O(B.d.aU(76.5),0,0,0),h),A.db(h,h,10),A.bA("Schedule appointment",h,h,h,h,A.aT(h,h,B.i,h,h,h,h,h,"Chromoxome",h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)],a2),B.T,B.U,B.G),h),h,h,new A.cN(h,h,h,o,h,new A.kz(B.cl,B.x1,B.b6,m,h,h),B.aa),h,h,h,h),h,!0,h,h,h,h,h,h,h,h,h,new A.a2e(a3),h,h,h,h)],a2),B.bu,B.U,B.G),h),A.ID("assets/Images/Group 7.png",h)],a2),B.bu,B.i3,B.G)
+o=A.bA("Latest Projects",h,h,h,h,A.aT(h,h,new A.hp(A.e6(f)>>>0),h,h,h,h,h,e,h,h,40,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+p=A.db(h,45,h)
 q=A.e6("#8A038A")>>>0
-q=A.bA("Modern Bulk Editor",c,c,c,c,A.aT(c,c,A.O(m,q>>>16&255,q>>>8&255,q&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
+r=B.d.aU(178.5)
+q=A.bA("Phone Dailer",h,h,h,h,A.aT(h,h,A.O(r,q>>>16&255,q>>>8&255,q&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
 s=A.e6("#004682")>>>0
-s=A.bA("Modern Bulk Editor for WooCommerce products,\ncreate and edit hundreds of products in a spreadsheet inside wp-admin.\nNo need to export/import\n",c,c,c,c,A.aT(c,c,A.O(133,s>>>16&255,s>>>8&255,s&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-l=A.e6("#B1DDFF")>>>0
-l=A.O(54,l>>>16&255,l>>>8&255,l&255)
-g=A.e6("#010F14")>>>0
-g=A.bA(a2,c,c,c,c,A.aT(c,c,A.O(m,g>>>16&255,g>>>8&255,g&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
-f=A.db(c,c,10)
-e=A.e6("#9B9B9B")>>>0
-l=A.k8(A.a([new A.bJ(B.n0,q,c),new A.bJ(B.n1,s,c),new A.bJ(B.n_,A.b5(c,new A.bJ(B.mZ,A.e9(A.a([g,f,A.bA("Wordpress - Plugin",c,c,c,c,A.aT(c,c,A.O(m,e>>>16&255,e>>>8&255,e&255),c,c,c,c,c,a1,c,c,20,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)],o),B.T,B.U,B.G),c),c,c,new A.cN(l,c,c,c,c,c,B.aa),c,c,c,c),c)],o),B.bu,B.U,B.G)
-e=A.db(c,c,30)
-m=A.dN(a3,p).y
-f=A.ag(m).i("ax<1,kt>")
-f=A.b5(c,A.k8(A.a([h,new A.bJ(B.BU,A.k8(A.a([j,k,n,r,A.b5(c,A.e9(A.a([l,e,A.b5(c,A.aq4(A.ar(new A.ax(m,new A.a2g(),f),!0,f.i("bo.E")),A.aq3(!1,0.2)),c,c,c,317,c,c,800)],o),B.T,B.U,B.G),B.i,c,c,317,c,c,1614),A.db(c,200,c)],o),B.bu,B.U,B.G),c)],o),B.bu,B.U,B.G),c,c,c,c,c,c,1980)
-i=A.b5(c,c,c,c,new A.cN(c,c,c,c,c,new A.jw(B.K,1000,B.b6,c,0,A.a([B.dz,B.i],i),c,c),B.aa),1,c,c,1900)
-m=t.w
-e=a3.Z(m).f
-e=A.anv(A.k8(A.a([f,i,A.b5(c,A.fz(B.aK,A.a([new A.i_(B.fL,c,c,A.ID("assets/Images/Logo2.png",c),c),new A.i_(B.ea,c,c,A.bA("copyright \xa9 2022 ",c,c,c,c,c,c,c),c)],o),B.aB,c),c,c,c,130,c,c,e.a.a)],o),B.T,B.U,B.G),B.aL)
-if(A.dN(a3,p).x){s=A.aAl(6,6)
-r=a3.Z(m).f
-m=a3.Z(m).f
-s=A.ays(A.xX(!1,c,!0,A.b5(c,c,A.O(B.d.aU(127.5),0,0,0),c,c,m.a.b,c,c,r.a.a),c,!0,c,c,c,c,c,c,c,c,c,new A.a2h(a3),c,c,c,c),s)}else s=A.b5(c,c,c,c,c,c,c,c,c)
-return A.as1(new A.Jz(c),new A.i_(B.wZ,c,c,A.anv(A.fz(B.lR,A.a([e,s,A.dN(a3,p).x?A.apK(new A.a2i(d.a,d.b,d.c,d.d),t.Lz,t.J2):A.b5(c,c,c,c,c,c,c,c,c)],o),B.aB,c),B.aF),c))},
+s=A.bA("It was challenging to build a phone dialer application in Flutter since\nyou have to communicate between flutter and native android (Kotlin) in\norder to detect and answer or make a phone call  not only that but also\nthe more challenging part is to keep the application alive in the background\ndue to third party application limitation that has been made by google (android)",h,h,h,h,A.aT(h,h,A.O(133,s>>>16&255,s>>>8&255,s&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+b=A.e6("#B1DDFF")>>>0
+b=A.O(54,b>>>16&255,b>>>8&255,b&255)
+a=A.e6("#010F14")>>>0
+a=A.bA(c,h,h,h,h,A.aT(h,h,A.O(r,a>>>16&255,a>>>8&255,a&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+a1=A.db(h,h,10)
+a0=A.e6("#9B9B9B")>>>0
+b=A.k8(A.a([new A.bJ(B.n0,q,h),new A.bJ(B.n1,s,h),new A.bJ(B.n_,A.b5(h,new A.bJ(B.mZ,A.e9(A.a([a,a1,A.bA("Mobile App",h,h,h,h,A.aT(h,h,A.O(r,a0>>>16&255,a0>>>8&255,a0&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)],a2),B.T,B.U,B.G),h),h,h,new A.cN(b,h,h,h,h,h,B.aa),h,h,h,h),h)],a2),B.bu,B.U,B.G)
+a0=A.db(h,h,30)
+a1=t.H9
+a=A.dN(a3,a1).y
+s=A.ag(a).i("ax<1,kt>")
+s=A.b5(h,A.e9(A.a([b,a0,A.b5(h,A.aq4(A.ar(new A.ax(a,new A.a2f(),s),!0,s.i("bo.E")),A.aq3(!1,0.2)),h,h,h,317,h,h,800)],a2),B.T,B.U,B.G),B.i,h,h,317,h,h,1614)
+a=A.db(h,45,h)
+a0=A.e6("#8A038A")>>>0
+a0=A.bA("Modern Bulk Editor",h,h,h,h,A.aT(h,h,A.O(r,a0>>>16&255,a0>>>8&255,a0&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+b=A.e6("#004682")>>>0
+b=A.bA("Modern Bulk Editor for WooCommerce products,\ncreate and edit hundreds of products in a spreadsheet inside wp-admin.\nNo need to export/import\n",h,h,h,h,A.aT(h,h,A.O(133,b>>>16&255,b>>>8&255,b&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+q=A.e6("#B1DDFF")>>>0
+q=A.O(54,q>>>16&255,q>>>8&255,q&255)
+l=A.e6("#010F14")>>>0
+l=A.bA(c,h,h,h,h,A.aT(h,h,A.O(r,l>>>16&255,l>>>8&255,l&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
+k=A.db(h,h,10)
+j=A.e6("#9B9B9B")>>>0
+q=A.k8(A.a([new A.bJ(B.n0,a0,h),new A.bJ(B.n1,b,h),new A.bJ(B.n_,A.b5(h,new A.bJ(B.mZ,A.e9(A.a([l,k,A.bA("Wordpress - Plugin",h,h,h,h,A.aT(h,h,A.O(r,j>>>16&255,j>>>8&255,j&255),h,h,h,h,h,d,h,h,20,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)],a2),B.T,B.U,B.G),h),h,h,new A.cN(q,h,h,h,h,h,B.aa),h,h,h,h),h)],a2),B.bu,B.U,B.G)
+j=A.db(h,h,30)
+r=A.dN(a3,a1).y
+k=A.ag(r).i("ax<1,kt>")
+k=A.b5(h,A.k8(A.a([m,new A.bJ(B.BU,A.k8(A.a([o,p,s,a,A.b5(h,A.e9(A.a([q,j,A.b5(h,A.aq4(A.ar(new A.ax(r,new A.a2g(),k),!0,k.i("bo.E")),A.aq3(!1,0.2)),h,h,h,317,h,h,800)],a2),B.T,B.U,B.G),B.i,h,h,317,h,h,1614),A.db(h,200,h)],a2),B.bu,B.U,B.G),h)],a2),B.bu,B.U,B.G),h,h,h,h,h,h,1980)
+n=A.b5(h,h,h,h,new A.cN(h,h,h,h,h,new A.jw(B.K,1000,B.b6,h,0,A.a([B.dz,B.i],n),h,h),B.aa),1,h,h,1900)
+r=t.w
+j=a3.Z(r).f
+j=A.anv(A.k8(A.a([k,n,A.b5(h,A.fz(B.aK,A.a([new A.i_(B.fL,h,h,A.ID("assets/Images/Logo2.png",h),h),new A.i_(B.ea,h,h,A.bA("copyright \xa9 2022 ",h,h,h,h,h,h,h),h)],a2),B.aB,h),h,h,h,130,h,h,j.a.a)],a2),B.T,B.U,B.G),B.aL)
+if(A.dN(a3,a1).x){b=A.aAl(6,6)
+a=a3.Z(r).f
+r=a3.Z(r).f
+b=A.ays(A.xX(!1,h,!0,A.b5(h,h,A.O(B.d.aU(127.5),0,0,0),h,h,r.a.b,h,h,a.a.a),h,!0,h,h,h,h,h,h,h,h,h,new A.a2h(a3),h,h,h,h),b)}else b=A.b5(h,h,h,h,h,h,h,h,h)
+return A.as1(new A.Jz(h),new A.i_(B.wZ,h,h,A.anv(A.fz(B.lR,A.a([j,b,A.dN(a3,a1).x?A.apK(new A.a2i(i.a,i.b,i.c,i.d),t.Lz,t.J2):A.b5(h,h,h,h,h,h,h,h,h)],a2),B.aB,h),B.aF),h))},
 $S:428}
 A.a2e.prototype={
 $0(){var s=A.dN(this.a,t.H9)
